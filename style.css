@@ -17,6 +17,7 @@
     --sand-top-opacity: 1;
 
     --scale-factor: 1; 
+    --y-offset: 0%;
     --text-size: 14px;
     --text-weight: 300;
     --text-spacing: 0.15em;
@@ -26,7 +27,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     background-color: #050505;
     display: flex;
@@ -39,6 +40,7 @@ body {
 @media (max-width: 767px) {
     :root {
         --scale-factor: 1.25; 
+        --y-offset: -10%; 
         --text-size: 18px;
         --text-weight: 400; 
         --text-spacing: 0.1em;
@@ -48,6 +50,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
     :root {
         --scale-factor: 1.4;
+        --y-offset: -5%;
         --text-size: 16px;
         --text-weight: 300;
         --text-spacing: 0.12em;
