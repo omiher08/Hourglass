@@ -20,7 +20,7 @@ function generateSpaceBackground() {
 generateSpaceBackground();
 
 const CONFIG = {
-    startDate: new Date('2026-01-05T00:00:00-05:00').getTime(),
+    startDate: new Date('2026-01-05T21:02:00-05:00').getTime(),
     targetDate: new Date('2026-04-12T12:00:00-05:00').getTime()
 };
 
